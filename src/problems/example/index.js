@@ -10,15 +10,11 @@ const Example = () => {
 
 	const input = "ghchen";
 	let output = solution(input);
-	console.log(solution.toString());
 	return (
 		<div className={styles.main}>
 			<div className={styles.title}>example</div>
 			<div className={styles.body}>
 				<div className={styles.code}>
-					{/* <pre>
-					<code>{solution.toString()}</code>
-                </pre> */}
 					<Highlight className="javascript">
 						{solution.toString()}
 					</Highlight>
