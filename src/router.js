@@ -2,6 +2,7 @@ import Example from "./problems/example";
 import Problem1 from "./problems/problem1";
 import Problem3 from "./problems/problem3";
 import Problem4 from "./problems/problem4";
+import Problem5 from "./problems/problem5";
 
 export const routers = [
 	{
@@ -23,5 +24,10 @@ export const routers = [
 		path: "/problem4",
 		component: Problem4,
 		title: "problem4"
+	},
+	{
+		path: "/problem5",
+		component: Problem5,
+		title: "problem5"
 	}
 ];
