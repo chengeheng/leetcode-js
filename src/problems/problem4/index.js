@@ -43,13 +43,16 @@ const Problem = () => {
 		return 0;
 	};
 
-	const input = [[1, 2, 3], [2, 4]];
+	const input = [
+		[1, 2, 3],
+		[2, 4]
+	];
 	const inputShow = input.map(item => JSON.stringify(item));
 	const output = solution(...input);
 	const outputShow = output;
 	return (
 		<div className={styles.main}>
-			<div className={styles.title}>4. 寻找两个有序数组的中位数</div>
+			<div className={styles.title}>寻找两个有序数组的中位数</div>
 			<div className={styles.body}>
 				<div className={styles.code}>
 					<Highlight className="javascript">

@@ -6,3 +6,16 @@ export const isJson = str => {
 		return false;
 	}
 };
+
+/**
+ * 跳转到指定页面
+ * @param {Object} history
+ * @param {String} url
+ */
+export const jumpToPage = (history, url) => {
+	if (window.event && window.event.ctrlKey) {
+		window.open(url, "_blank");
+	} else {
+		history.push(url);
+	}
+};

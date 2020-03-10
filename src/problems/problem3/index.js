@@ -43,7 +43,7 @@ const Problem = () => {
 	const outputShow = output;
 	return (
 		<div className={styles.main}>
-			<div className={styles.title}>3. 无重复字符的最长子串</div>
+			<div className={styles.title}>无重复字符的最长子串</div>
 			<div className={styles.body}>
 				<div className={styles.code}>
 					<Highlight className="javascript">

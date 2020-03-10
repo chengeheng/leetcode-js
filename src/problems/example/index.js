@@ -12,7 +12,7 @@ const Example = () => {
 	let output = solution(input);
 	return (
 		<div className={styles.main}>
-			<div className={styles.title}>example</div>
+			<div className={styles.title}>示例</div>
 			<div className={styles.body}>
 				<div className={styles.code}>
 					<Highlight className="javascript">

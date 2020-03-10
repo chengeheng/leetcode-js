@@ -8,7 +8,7 @@ const Problem = () => {
 			var len = str.length;
 			var middle = parseInt(len / 2);
 			for (var i = 0; i < middle; i++) {
-				if (str[i] != str[len - i - 1]) {
+				if (str[i] !== str[len - i - 1]) {
 					return false;
 				}
 			}
@@ -59,7 +59,7 @@ const Problem = () => {
 	const outputShow = output;
 	return (
 		<div className={styles.main}>
-			<div className={styles.title}>5. 最长回文子串</div>
+			<div className={styles.title}>最长回文子串</div>
 			<div className={styles.body}>
 				<div className={styles.code}>
 					<Highlight className="javascript">

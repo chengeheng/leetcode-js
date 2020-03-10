@@ -3,10 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"antd": "^3.23.2",
 		"babel-plugin-import": "^1.12.1",
-		"highlight.js": "^9.15.10",
-		"marked": "^0.7.0",
 		"moment": "^2.24.0",
 		"react": "^16.9.0",
 		"react-dom": "^16.9.0",

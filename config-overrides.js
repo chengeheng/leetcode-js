@@ -1,6 +1,5 @@
 const {
 	override,
-	fixBabelImports,
 	addLessLoader,
 	babelInclude,
 	addWebpackResolve
@@ -9,11 +8,6 @@ const path = require("path");
 
 module.exports = override(
 	// 参考https://www.jianshu.com/p/e1dbb940968d
-	fixBabelImports("antd", {
-		libraryName: "antd",
-		libraryDirectory: "lib"
-		// style: true
-	}),
 	addLessLoader({
 		// modifyVars: {
 		// 	"@primary-color": "#F5A623"

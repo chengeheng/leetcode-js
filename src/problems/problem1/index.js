@@ -33,7 +33,7 @@ const Problem = () => {
 	const outputShow = JSON.stringify(output);
 	return (
 		<div className={styles.main}>
-			<div className={styles.title}>1. 两数之和</div>
+			<div className={styles.title}>两数之和</div>
 			<div className={styles.body}>
 				<div className={styles.code}>
 					<Highlight className="javascript">
